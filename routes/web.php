@@ -14,10 +14,10 @@
 Route::get('/', 'HomeController@index');
 Route::get('/company', 'HomeController@company');
 Route::get('/greeting', 'HomeController@greeting');
-Route::get('/organization_chart', 'HomeController@organization_chart');
-Route::get('/accommodation_division', 'HomeController@accommodation_division');
-Route::get('/estate_division', 'HomeController@estate_division');
-Route::get('/privacy_policy', 'HomeController@privacy_policy');
+Route::get('/organization_chart', 'HomeController@organizationChart');
+Route::get('/accommodation_division', 'HomeController@accommodationDivision');
+Route::get('/estate_division', 'HomeController@estateDivision');
+Route::get('/privacy_policy', 'HomeController@privacyPolicy');
 
 Route::get('/news', 'NotificationController@news');
 Route::get('/recruit', 'NotificationController@recruit');
