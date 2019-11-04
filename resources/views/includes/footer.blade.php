@@ -11,8 +11,3 @@
     </ul>
     <p class="uf-txt-ctr">©2019 CompanyInformation Inc.</p>
 </footer>
-
-
-padding: 0 30px;
-border-right: 2px solid #fff;
-cursor: pointer;
