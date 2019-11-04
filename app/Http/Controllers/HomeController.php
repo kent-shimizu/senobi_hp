@@ -33,7 +33,7 @@ class HomeController extends Controller
     /*
      * @return \Illuminate\View\View
      */
-    public function organization_chart()
+    public function organizationChart()
     {
         return view('organization_chart');
     }
@@ -41,7 +41,7 @@ class HomeController extends Controller
     /*
      * @return \Illuminate\View\View
      */
-    public function accommodation_division()
+    public function accommodationDivision()
     {
         return view('accommodation_division');
     }
@@ -49,7 +49,7 @@ class HomeController extends Controller
     /*
      * @return \Illuminate\View\View
      */
-    public function estate_division()
+    public function estateDivision()
     {
         return view('estate_division');
     }
@@ -57,7 +57,7 @@ class HomeController extends Controller
     /*
      * @return \Illuminate\View\View
      */
-    public function privacy_policy()
+    public function privacyPolicy()
     {
         return view('privacy_policy');
     }
