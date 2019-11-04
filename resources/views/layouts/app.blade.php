@@ -10,6 +10,7 @@
     <meta name="application-name" content="xxxxx">
     <meta name="apple-mobile-web-app-title" content="xxxxx">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     {{--favicon--}}
     <link rel="icon" type="image/png" href="{{ asset("/images/favicon.jpg") }}" sizes="16x16">
     @yield('head')
@@ -26,7 +27,6 @@
             </main>
         </div>
     </div>
-    {{--{!! HTML::script(mix_cdn('js/frontend.js')) !!}--}}
 </body>
 
 </html>
