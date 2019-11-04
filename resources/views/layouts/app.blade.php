@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    {{--favico title name--}}
     <meta name="application-name" content="xxxxx">
     <meta name="apple-mobile-web-app-title" content="xxxxx">
+    {{--favicon--}}
+    <link rel="icon" type="image/png" href="{{ asset("/images/favicon.jpg") }}" sizes="16x16">
     {{--{!! HTML::script(asset_cdn('js/vendor/jquery.min.js')) !!}--}}
     {{--{!! HTML::script(asset_cdn('js/vendor/bootstrap.min.js')) !!}--}}
     {{--{!! HTML::script(asset_cdn('vendor/jsvalidation/js/jsvalidation.js')) !!}--}}
