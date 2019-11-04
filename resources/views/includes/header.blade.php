@@ -1,4 +1,5 @@
 <header class="zf-header">
+
     <div id="nav-drawer">
         <input id="nav-input" type="checkbox" class="nav-unshown">
         <label id="nav-open" for="nav-input"><span></span></label>
@@ -18,7 +19,7 @@
 
     <div class="header__logo">
     </div>
-    <div class="header__menu">
+    <div class="header__menu ">
         <ul>
             <li><a href="/company">会社概要</a></li>
             <li><a href="/greeting">代表者挨拶</a></li>

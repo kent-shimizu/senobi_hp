@@ -8,9 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="application-name" content="xxxxx">
     <meta name="apple-mobile-web-app-title" content="xxxxx">
-    {{--{!! HTML::script(asset_cdn('js/vendor/jquery.min.js')) !!}--}}
-    {{--{!! HTML::script(asset_cdn('js/vendor/bootstrap.min.js')) !!}--}}
-    {{--{!! HTML::script(asset_cdn('vendor/jsvalidation/js/jsvalidation.js')) !!}--}}
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('head')
     <title>@yield('title') | XXXXXXXXX</title>
 </head>
