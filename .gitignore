@@ -13,3 +13,4 @@ yarn-error.log
 /.ide_helper/*
 !/.ide_helper/empty
 /psysh
+.idea
