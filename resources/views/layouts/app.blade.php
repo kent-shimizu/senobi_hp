@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    {{--favico title name--}}
     <meta name="application-name" content="xxxxx">
     <meta name="apple-mobile-web-app-title" content="xxxxx">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{--favicon--}}
+    <link rel="icon" type="image/png" href="{{ asset("/images/favicon.jpg") }}" sizes="16x16">
     @yield('head')
     <title>@yield('title') | XXXXXXXXX</title>
 </head>
