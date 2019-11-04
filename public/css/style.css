@@ -52,3 +52,56 @@ html, body {
 .fa-facebook-square:before {
     content: "";
 }
+
+.zf-header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: #fff;
+    z-index: 100;
+}
+
+.zf-header ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.zf-header li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.header__menu{
+    width: 100%;
+    text-align: center;
+}
+
+.zf-footer{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.zf-footer li{
+    padding: 0 10px;
+    border-right: 1px solid #000;
+    cursor: pointer;
+}
+
+.zf-footer li:last-child{
+    border: none;
+}
+
+.zf-footer li a{
+    color: #000;
+    text-decoration: none;
+}
